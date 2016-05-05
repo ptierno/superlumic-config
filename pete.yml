@@ -7,14 +7,6 @@
     - name: install personal cask applications
       homebrew_cask: name={{item}} state=present
       with_items:
-        - spotify
-        - istat-menus
-        - dropbox
-        - kaleidoscope
-        - hazel
-        - sonos
-        - tower
-        - superduper
         - google-chrome
         - keepingyouawake
         - microsoft-office
@@ -48,16 +40,16 @@
         state=present
         create=true
       with_items:
-        - { regexp: '^roderik', line: 'roderik ALL=(ALL) NOPASSWD: ALL' }
+        - { regexp: '^ptierno', line: 'ptierno ALL=(ALL) NOPASSWD: ALL' }
 
   roles:
     - profile-all
     - profile-developer
 
   vars:
-    - computername: spectr
-    - git_user_name: Roderik van der Veer
-    - git_user_email: roderik.van.der.veer@kunstmaan.be
+    - computername: ptierno-mac
+    - git_user_name: Peter Tierno
+    - git_user_email: ptierno@datapipe.com
     - php_version: 70
     - sublime_packages:
         - dest: "SideBarEnhancements"
