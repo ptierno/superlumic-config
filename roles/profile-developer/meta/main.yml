@@ -11,11 +11,11 @@ galaxy_info:
   categories:
     - system
 dependencies:
-  - ptierno.superlumic-computername
-  - ptierno.superlumic-cli
-  - ptierno.superlumic-homebrew
-  - ptierno.superlumic-php
-  - ptierno.superlumic-sublimetext
-  - ptierno.superlumic-node
-  - ptierno.superlumic-vim
+  - pete.superlumic-computername
+  - pete.superlumic-cli
+  - pete.superlumic-homebrew
+  - pete.superlumic-php
+  - pete.superlumic-sublimetext
+  - pete.superlumic-node
+  - pete.superlumic-vim
   - profile-all
